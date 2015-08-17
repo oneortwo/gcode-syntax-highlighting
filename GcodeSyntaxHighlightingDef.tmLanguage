@@ -34,7 +34,7 @@
 			<key>comment</key>
 			<string>comments</string>
 			<key>match</key>
-			<string>\(.*\)</string>
+			<string>;.+</string>
 			<key>name</key>
 			<string>comment.line</string>
 		</dict>
@@ -82,7 +82,7 @@
 			<key>comment</key>
 			<string>positions</string>
 			<key>match</key>
-			<string>([XYZABC]{1})(?=([\d\.-])*)</string>
+			<string>([XYZABCEF]{1})(?=([\d\.-])*)</string>
 			<key>name</key>
 			<string>markup.bold</string>
 		</dict>
@@ -98,7 +98,7 @@
 			<key>comment</key>
 			<string>positions</string>
 			<key>match</key>
-			<string>(?&lt;=[XYZABC])([\d\.-])*</string>
+			<string>(?&lt;=[XYZABCEF])([\d\.-])*</string>
 			<key>name</key>
 			<string>constant.numeric</string>
 		</dict>
